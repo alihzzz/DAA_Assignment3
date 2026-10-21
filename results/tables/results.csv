@@ -1,0 +1,19 @@
+algorithm,graph,V,E,avg_time_us,operations
+Kruskal,Small,10,30,59.5,weight=129; connected=true; sortComparisons=107; edgeExams=14; dsuFinds=28; dsuUnions=14; dsuParentSteps=15
+Prim,Small,10,30,71.9,weight=129; connected=true; edgeExams=60; heapPushes=30; heapPolls=30
+TopoSort (DAG),Small,10,30,36.4,hasCycle=false; edgeExams=60
+TopoSort (cyclic),Small,10,30,3.9,hasCycle=true; edgeExams=30
+SCC (Kosaraju),Small,10,30,27.9,components=1; edgeExams=60
+Dijkstra,Small,10,30,25.5,reachable=10; edgeExams=30; heapPushes=12; heapPolls=12
+Kruskal,Medium,100,500,403.2,weight=1170; connected=true; sortComparisons=3827; edgeExams=164; dsuFinds=328; dsuUnions=164; dsuParentSteps=248
+Prim,Medium,100,500,220.1,weight=1170; connected=true; edgeExams=1000; heapPushes=500; heapPolls=500
+TopoSort (DAG),Medium,100,500,169.4,hasCycle=false; edgeExams=1000
+TopoSort (cyclic),Medium,100,500,74.9,hasCycle=true; edgeExams=500
+SCC (Kosaraju),Medium,100,500,188.6,components=1; edgeExams=1000
+Dijkstra,Medium,100,500,90.0,reachable=100; edgeExams=500; heapPushes=150; heapPolls=150
+Kruskal,Large,1000,5000,1294.1,weight=13123; connected=true; sortComparisons=50369; edgeExams=3356; dsuFinds=6712; dsuUnions=3356; dsuParentSteps=6238
+Prim,Large,1000,5000,2369.9,weight=13123; connected=true; edgeExams=10000; heapPushes=5000; heapPolls=5000
+TopoSort (DAG),Large,1000,5000,666.3,hasCycle=false; edgeExams=10000
+TopoSort (cyclic),Large,1000,5000,63.1,hasCycle=true; edgeExams=5054
+SCC (Kosaraju),Large,1000,5000,954.3,components=18; edgeExams=10000
+Dijkstra,Large,1000,5000,961.5,reachable=990; edgeExams=4946; heapPushes=1420; heapPolls=1420
